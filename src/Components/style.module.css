@@ -1,0 +1,164 @@
+.BottomTabs {
+    background-color: rgb(24, 6, 16);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.BottomTabs>a {
+    color: yellow;
+    padding: 2vh;
+    font-size: 4vh;
+    text-transform: uppercase;
+    width: 50%;
+    text-decoration: none;
+}
+
+:is(html, body)::-webkit-scrollbar {
+    width: 0px;
+}
+
+.InputsContainer {
+    border: 0.4vh solid rgb(15, 10, 10);
+    background-color: #31162b;
+    border-radius: 2vh;
+    top: 0;
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.Salvar {
+    all: unset;
+    width: 20%;
+    margin-top: 4vh;
+    border: 0.4vh solid greenyellow;
+    font-size: 3vh;
+    cursor: pointer;
+    background-color: green;
+    color: color;
+    font-weight: bold;
+    padding: 2vh;
+    border-radius: 5vh;
+}
+
+.InputsContainer>input {
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+}
+
+.Titulo {
+    padding: 2vh;
+    font-size: 5vh;
+    text-align: center;
+    color: yellowgreen;
+    font-style: italic;
+}
+
+
+.Box {
+    padding: 2vh;
+    overflow: auto;
+    height: 80vh;
+}
+
+.OuterBox {
+    margin-top: 2vh;
+    padding: 0.4vh;
+    display: flex;
+    height: 30vh;
+}
+
+.Itens {
+    color: white;
+    width: 100%;
+    padding-left: 1vh;
+    overflow: auto;
+    text-align: justify;
+    font-size: 2.4vh;
+}
+
+.Fechar {
+    all: unset;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    padding-right: 3vh;
+    padding-top: 1.7vh;
+    font-size: 5vh;
+}
+
+.Itens>a {
+    text-decoration: none;
+    color: rgb(131, 212, 8);
+}
+
+.Itens::-webkit-scrollbar {
+    width: 0;
+}
+
+.Itens>h1 {
+    font-size: 4vh;
+    overflow: hidden;
+
+}
+
+.Itens>button {
+    all: unset;
+    cursor: pointer;
+    border: 0.2vh solid greenyellow;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: green;
+    right: 0;
+    margin-right: 5vh;
+    margin-top: 2vh;
+}
+
+.Itens>* {
+    padding-top: 2vh;
+    width: 95%;
+}
+
+.Itens>button:hover {
+    filter: invert(1);
+}
+
+.OuterBox>img {
+    width: 13%;
+}
+
+.Itens>button {
+    display: block;
+}
+
+.BooksContainer > div >div {
+    margin-top: 2vh;
+    padding: 0.4vh;
+    display: flex;
+    height: 30vh;
+    border: 0.1vh solid white;
+}
+
+.BooksContainer > div >div>img {
+    width: 13%;
+}
+
+.Apagar{
+    all: unset;
+    cursor: pointer;
+    width: 5%;
+    text-align: center;
+    font-size: 2vh;
+    background-color: red;
+}
